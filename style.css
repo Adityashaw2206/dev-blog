@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');     
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(39, 39, 46);
+    font-family: "Poppins", sans-serif;
+}
+
+.page{
+    width: 98vw;
+    min-height: 100vh;
+}
+
+.container{
+    width: 85vw;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+main img{
+    object-fit: contain;
+    width: 20vw;
+}
+
+.heading{
+    margin-top: 3vh;
+    font-size: 5rem;
+    color: rgb(172, 97, 72);
+    text-align: center;
+    font-style: italic;
+}
+.sub-heading{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+hr{
+    color: rgb(128, 128, 128);
+    width: 98vw;
+    opacity: 0.07;
+}
+
+.tech{
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tech ul{
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    color: grey;
+    gap: 4rem;
+    
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 6rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    width: 20rem;
+    min-height: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.card img{
+    object-fit: contain;
+    border-radius: 1rem;
+
+}
+.tag{
+    color: rgba(128, 128, 128, 0.681);
+    font-size: small;
+}
+
+.foot, .para{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+}
+button{
+    background-color: rgb(23, 172, 231);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+footer{
+    margin-bottom: 2rem;
+}
